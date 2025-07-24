@@ -50,13 +50,6 @@ npm run dev
 
 4. Open [http://localhost:8080](http://localhost:8080) in your browser
 
-## 📝 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
 ## 🌍 Deployment
 
 This project is configured for **AWS Amplify** deployment:
