@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="neptuneGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#5b8cff" />
+      <stop offset="100%" stop-color="#3a5dc9" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Planet body -->
+  <circle cx="100" cy="100" r="90" fill="url(#neptuneGradient)" />
+  
+  <!-- Great Dark Spot -->
+  <ellipse cx="70" cy="70" rx="25" ry="15" fill="#2a4494" transform="rotate(-15 70 70)" />
+  
+  <!-- Cloud bands and storms -->
+  <path d="M30 60 Q60 50 100 60 T170 70" stroke="white" stroke-width="3" fill="none" opacity="0.5" />
+  <path d="M40 90 Q70 80 110 90 T160 100" stroke="white" stroke-width="2" fill="none" opacity="0.6" />
+  <path d="M50 120 Q80 110 120 120 T150 130" stroke="white" stroke-width="4" fill="none" opacity="0.4" />
+  <path d="M30 150 Q60 140 100 150 T170 160" stroke="white" stroke-width="3" fill="none" opacity="0.5" />
+  
+  <!-- Small storms -->
+  <circle cx="130" cy="50" r="8" fill="#2a4494" />
+  <circle cx="150" cy="120" r="6" fill="#2a4494" />
+  <circle cx="60" cy="140" r="7" fill="#2a4494" />
+  
+  <!-- Highlights -->
+  <ellipse cx="70" cy="40" rx="30" ry="15" fill="white" opacity="0.2" />
+  <ellipse cx="130" cy="160" rx="25" ry="12" fill="white" opacity="0.2" />
+</svg>

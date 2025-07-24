@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="earthGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#6bb5ff" />
+      <stop offset="100%" stop-color="#2671c7" />
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#earthGradient)" />
+  
+  <!-- Continents -->
+  <path d="M60 40 Q80 30 100 40 T130 50 Q140 60 130 70 T110 80 Q90 85 70 75 T60 40" fill="#4d9e45" />
+  <path d="M130 60 Q150 65 160 80 T150 100 Q140 110 120 105 T130 60" fill="#4d9e45" />
+  <path d="M40 90 Q60 85 80 95 T90 120 Q80 130 60 125 T40 90" fill="#4d9e45" />
+  <path d="M100 110 Q120 105 140 115 T150 140 Q140 150 120 145 T100 110" fill="#4d9e45" />
+  <path d="M50 140 Q70 135 90 145 T100 170 Q90 180 70 175 T50 140" fill="#4d9e45" />
+  
+  <!-- Cloud patterns -->
+  <ellipse cx="70" cy="30" rx="20" ry="10" fill="white" opacity="0.7" transform="rotate(-15 70 30)" />
+  <ellipse cx="130" cy="40" rx="25" ry="12" fill="white" opacity="0.6" transform="rotate(10 130 40)" />
+  <ellipse cx="40" cy="70" rx="15" ry="8" fill="white" opacity="0.7" transform="rotate(-5 40 70)" />
+  <ellipse cx="160" cy="90" rx="20" ry="10" fill="white" opacity="0.6" transform="rotate(15 160 90)" />
+  <ellipse cx="90" cy="160" rx="25" ry="12" fill="white" opacity="0.7" transform="rotate(-10 90 160)" />
+  <ellipse cx="150" cy="150" rx="15" ry="8" fill="white" opacity="0.6" transform="rotate(5 150 150)" />
+  
+  <!-- Polar ice caps -->
+  <ellipse cx="100" cy="25" rx="35" ry="15" fill="white" opacity="0.9" />
+  <ellipse cx="100" cy="175" rx="35" ry="15" fill="white" opacity="0.9" />
+</svg>

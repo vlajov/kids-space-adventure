@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="jupiterGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#f8e3c2" />
+      <stop offset="100%" stop-color="#d8b583" />
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#jupiterGradient)" />
+  
+  <!-- Cloud bands -->
+  <path d="M10 70 L190 70" stroke="#e3c99f" stroke-width="15" fill="none" />
+  <path d="M10 50 L190 50" stroke="#d8b583" stroke-width="10" fill="none" />
+  <path d="M10 90 L190 90" stroke="#c9a978" stroke-width="20" fill="none" />
+  <path d="M10 120 L190 120" stroke="#e3c99f" stroke-width="18" fill="none" />
+  <path d="M10 145 L190 145" stroke="#d8b583" stroke-width="12" fill="none" />
+  <path d="M10 165 L190 165" stroke="#c9a978" stroke-width="15" fill="none" />
+  
+  <!-- Great Red Spot -->
+  <ellipse cx="150" cy="90" rx="25" ry="15" fill="#c1440e" transform="rotate(-10 150 90)" />
+  
+  <!-- Cloud swirls -->
+  <path d="M30 50 Q40 45 50 50 T70 55" stroke="white" stroke-width="3" fill="none" opacity="0.5" />
+  <path d="M110 50 Q120 45 130 50 T150 55" stroke="white" stroke-width="3" fill="none" opacity="0.5" />
+  <path d="M40 90 Q50 85 60 90 T80 95" stroke="white" stroke-width="3" fill="none" opacity="0.5" />
+  <path d="M100 90 Q110 85 120 90 T140 95" stroke="white" stroke-width="3" fill="none" opacity="0.5" />
+  <path d="M30 120 Q40 115 50 120 T70 125" stroke="white" stroke-width="3" fill="none" opacity="0.5" />
+  <path d="M110 120 Q120 115 130 120 T150 125" stroke="white" stroke-width="3" fill="none" opacity="0.5" />
+  <path d="M40 165 Q50 160 60 165 T80 170" stroke="white" stroke-width="3" fill="none" opacity="0.5" />
+  <path d="M100 165 Q110 160 120 165 T140 170" stroke="white" stroke-width="3" fill="none" opacity="0.5" />
+</svg>

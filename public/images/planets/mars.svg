@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="marsGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#f9a461" />
+      <stop offset="100%" stop-color="#c1440e" />
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="url(#marsGradient)" />
+  
+  <!-- Surface features -->
+  <ellipse cx="70" cy="60" rx="25" ry="20" fill="#b0360e" opacity="0.5" transform="rotate(-15 70 60)" />
+  <ellipse cx="130" cy="80" rx="30" ry="25" fill="#b0360e" opacity="0.4" transform="rotate(20 130 80)" />
+  <ellipse cx="90" cy="120" rx="28" ry="22" fill="#b0360e" opacity="0.6" transform="rotate(10 90 120)" />
+  <ellipse cx="50" cy="100" rx="22" ry="18" fill="#b0360e" opacity="0.5" transform="rotate(-10 50 100)" />
+  
+  <!-- Olympus Mons -->
+  <circle cx="60" cy="70" r="15" fill="#d9691f" />
+  <circle cx="60" cy="70" r="10" fill="#b0360e" />
+  <circle cx="60" cy="70" r="5" fill="#8c2703" />
+  
+  <!-- Valles Marineris -->
+  <path d="M70 100 Q100 90 130 100 T170 110" stroke="#8c2703" stroke-width="8" fill="none" />
+  
+  <!-- Polar ice caps -->
+  <ellipse cx="100" cy="25" rx="25" ry="15" fill="white" opacity="0.8" />
+  <ellipse cx="100" cy="175" rx="25" ry="15" fill="white" opacity="0.8" />
+</svg>

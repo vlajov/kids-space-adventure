@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="uranusGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#caecec" />
+      <stop offset="100%" stop-color="#71bebe" />
+    </radialGradient>
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#caecec" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#71bebe" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#caecec" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rings (rotated 90 degrees to show Uranus's unique orientation) -->
+  <ellipse cx="100" cy="100" rx="110" ry="10" fill="url(#ringGradient)" transform="rotate(90 100 100)" opacity="0.7" />
+  
+  <!-- Planet body -->
+  <circle cx="100" cy="100" r="70" fill="url(#uranusGradient)" />
+  
+  <!-- Subtle cloud bands -->
+  <path d="M30 80 L170 80" stroke="#a0d6d6" stroke-width="5" fill="none" opacity="0.5" />
+  <path d="M30 100 L170 100" stroke="#a0d6d6" stroke-width="6" fill="none" opacity="0.5" />
+  <path d="M30 120 L170 120" stroke="#a0d6d6" stroke-width="5" fill="none" opacity="0.5" />
+  
+  <!-- Rings in front -->
+  <ellipse cx="100" cy="100" rx="110" ry="10" fill="none" stroke="url(#ringGradient)" stroke-width="1" transform="rotate(90 100 100)" />
+</svg>

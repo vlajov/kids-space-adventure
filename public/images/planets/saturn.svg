@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="saturnGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#f4d49b" />
+      <stop offset="100%" stop-color="#c4a36d" />
+    </radialGradient>
+    <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c4a36d" stop-opacity="0.1" />
+      <stop offset="20%" stop-color="#f4d49b" stop-opacity="0.8" />
+      <stop offset="30%" stop-color="#c4a36d" stop-opacity="0.2" />
+      <stop offset="40%" stop-color="#f4d49b" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#c4a36d" stop-opacity="0.3" />
+      <stop offset="60%" stop-color="#f4d49b" stop-opacity="0.7" />
+      <stop offset="70%" stop-color="#c4a36d" stop-opacity="0.4" />
+      <stop offset="80%" stop-color="#f4d49b" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#c4a36d" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rings behind the planet -->
+  <ellipse cx="100" cy="100" rx="150" ry="30" fill="url(#ringGradient)" transform="rotate(-15 100 100)" opacity="0.7" />
+  
+  <!-- Planet body -->
+  <circle cx="100" cy="100" r="70" fill="url(#saturnGradient)" />
+  
+  <!-- Cloud bands -->
+  <path d="M30 80 L170 80" stroke="#e3c99f" stroke-width="8" fill="none" />
+  <path d="M30 65 L170 65" stroke="#d8b583" stroke-width="6" fill="none" />
+  <path d="M30 95 L170 95" stroke="#c9a978" stroke-width="10" fill="none" />
+  <path d="M30 115 L170 115" stroke="#e3c99f" stroke-width="9" fill="none" />
+  <path d="M30 130 L170 130" stroke="#d8b583" stroke-width="7" fill="none" />
+  
+  <!-- Rings in front of the planet -->
+  <ellipse cx="100" cy="100" rx="150" ry="30" fill="none" stroke="url(#ringGradient)" stroke-width="1" transform="rotate(-15 100 100)" />
+</svg>

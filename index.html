@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:;" />
+    <title>Solar System Explorer for Kids</title>
+    <meta name="description" content="An interactive educational website about the solar system for 7-8 year old children" />
+    <meta name="author" content="Space Explorer Team" />
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+
+    <meta property="og:title" content="Solar System Explorer for Kids" />
+    <meta property="og:description" content="Join Captain Cosmos on an exciting journey through our solar system! Learn about planets, stars, and space in a fun, interactive way." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://planets.vladimircv.com/images/solar-system-og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://planets.vladimircv.com/images/solar-system-og.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Solar System Explorer for Kids" />
+    <meta name="twitter:description" content="An interactive space adventure for curious young minds!" />
+    <meta name="twitter:image" content="https://planets.vladimircv.com/images/solar-system-og.png" />
+    
+    <!-- Fix for mobile top margin -->
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      
+      #root {
+        margin-top: 0;
+        padding-top: 0;
+      }
+      
+      @media (max-width: 640px) {
+        .space-container {
+          margin-top: -20px !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="plutoGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#d4b896" />
+      <stop offset="100%" stop-color="#8b6f47" />
+    </radialGradient>
+    <radialGradient id="heartGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#f5e6d3" />
+      <stop offset="100%" stop-color="#d4b896" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Planet body -->
+  <circle cx="100" cy="100" r="90" fill="url(#plutoGradient)" />
+  
+  <!-- Tombaugh Regio (Heart-shaped region) -->
+  <path d="M85 80 C75 70, 60 70, 60 85 C60 95, 75 110, 100 130 C125 110, 140 95, 140 85 C140 70, 125 70, 115 80 C110 75, 105 75, 100 80 C95 75, 90 75, 85 80 Z" 
+        fill="url(#heartGradient)" opacity="0.8" />
+  
+  <!-- Surface features and craters -->
+  <circle cx="50" cy="50" r="12" fill="#6b5139" opacity="0.6" />
+  <circle cx="150" cy="60" r="8" fill="#6b5139" opacity="0.5" />
+  <circle cx="140" cy="140" r="10" fill="#6b5139" opacity="0.7" />
+  <circle cx="60" cy="150" r="7" fill="#6b5139" opacity="0.6" />
+  <circle cx="30" cy="120" r="6" fill="#6b5139" opacity="0.5" />
+  <circle cx="170" cy="100" r="9" fill="#6b5139" opacity="0.6" />
+  
+  <!-- Smaller craters -->
+  <circle cx="75" cy="45" r="4" fill="#6b5139" opacity="0.4" />
+  <circle cx="125" cy="50" r="3" fill="#6b5139" opacity="0.5" />
+  <circle cx="160" cy="130" r="5" fill="#6b5139" opacity="0.4" />
+  <circle cx="40" cy="80" r="3" fill="#6b5139" opacity="0.6" />
+  
+  <!-- Dark regions -->
+  <ellipse cx="120" cy="70" rx="15" ry="10" fill="#6b5139" opacity="0.3" transform="rotate(25 120 70)" />
+  <ellipse cx="70" cy="140" rx="18" ry="12" fill="#6b5139" opacity="0.4" transform="rotate(-20 70 140)" />
+  
+  <!-- Bright spots and highlights -->
+  <ellipse cx="80" cy="30" rx="20" ry="10" fill="white" opacity="0.15" />
+  <ellipse cx="130" cy="170" rx="15" ry="8" fill="white" opacity="0.1" />
+  <circle cx="45" cy="70" r="8" fill="#f5e6d3" opacity="0.3" />
+  
+  <!-- Atmospheric haze effect -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="white" stroke-width="2" opacity="0.1" />
+</svg>
