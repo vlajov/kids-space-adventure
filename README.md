@@ -34,8 +34,8 @@ An interactive, kid-friendly educational website that teaches children about our
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/planets-educational-app.git
-cd planets-educational-app
+git clone https://github.com/yourusername/kids-space-adventure.git
+cd kids-space-adventure
 ```
 
 2. Install dependencies:
