@@ -33,7 +33,6 @@ dist-ssr
 # Build artifacts
 build/
 *.zip
-solar-system-website-dist.zip
 
 # OS generated files
 Thumbs.db

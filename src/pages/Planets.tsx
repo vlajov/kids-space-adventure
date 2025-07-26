@@ -46,7 +46,7 @@ const planets: Planet[] = [
     facts: ['Surface temperatures range from -173°C to 427°C', 'No atmosphere to retain heat'],
     kidFacts: ['It\'s super hot during the day but freezing cold at night!', 'Mercury is the fastest planet - it races around the Sun!', 'It has no moons to keep it company'],
     emoji: '☿️',
-    whatIfVisit: 'If you visited Mercury, you\'d need a super special spacesuit! During the day, it's so hot it could bake a pizza in a few seconds, but at night it\'s colder than Antarctica!',
+    whatIfVisit: 'If you visited Mercury, you\'d need a super special spacesuit! During the day, it\'s so hot it could bake a pizza in a few seconds, but at night it\'s colder than Antarctica!',
     comparison: 'Mercury is about as big as our Moon!'
   },
   {
